@@ -1,0 +1,35 @@
+.individual-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question-div {
+  margin-block: 1rem;
+  /* height: 100px; */
+  background-color: whitesmoke;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 15px 0px;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+p {
+  margin-top: 0.5rem;
+}
+
+@media all and (min-width: 1020px) {
+  .question-div {
+    width: 1000px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .question-div {
+    padding: 1rem;
+    width: 340px;
+  }
+}
